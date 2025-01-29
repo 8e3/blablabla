@@ -60,4 +60,4 @@ end_date = datetime(2000, 12, 31)
 min_commits = 1
 max_commits = 1
 
-fake_commits(start_date, end_date, min_commits, max_commits, skipping=True, max_skip_days=1)
+fake_commits(start_date, end_date, min_commits, max_commits, skipping=False, max_skip_days=1)
