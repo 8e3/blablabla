@@ -53,8 +53,8 @@ def fake_commits(start_date, end_date, min_commits, max_commits, skipping=False,
 
 
 # Set the date range
-start_date = datetime(1970, 12, 31)
-end_date = datetime(1970, 12, 31)
+start_date = datetime(1970, 12, 30)
+end_date = datetime(1970, 12, 30)
 
 # Set the min and max number of commits per day
 min_commits = 1
